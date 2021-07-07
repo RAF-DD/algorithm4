@@ -1,0 +1,10 @@
+ALGORITHM playing_cards
+VAR
+    i:INTEGER;
+    tab:ARRAY_OF INTEGER[n];
+    tabtri:ARRAY_OF INTEGER[n];
+BEGIN
+    FOR i FROM 0 TO n-1 STEP 1  DO
+    
+tabtri[tab[i]-1] = tab[i];
+END
